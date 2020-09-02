@@ -9,8 +9,7 @@ module.exports = {
     filename: 'app.bundle.js',
   },
   devServer: {
-    port: 5500,
-    contentBase: path.join(__dirname, 'public'),
+    port: 9000,
   },
   plugins: [
     new MiniCssExtractPlugin({
